@@ -20,7 +20,7 @@ convertBtn.addEventListener('click', function () {
         speechSynch.speak(newUtter);
 
         newUtter.onend = function () {
-            convertBtn.innerHTML = '<i class="fa-solid fa-play"></i>';
+            convertBtn.innerHTML = '‣';
         };
 
         newUtter.onerror = function () {
