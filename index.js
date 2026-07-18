@@ -24,7 +24,7 @@ convertBtn.addEventListener('click', function () {
         };
 
         newUtter.onerror = function () {
-            convertBtn.innerHTML = '<i class="fa-solid fa-play"></i>';
+            convertBtn.innerHTML = '‣';
         };
     }
 });
