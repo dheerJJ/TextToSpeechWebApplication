@@ -26,7 +26,6 @@ body {
     -webkit-text-stroke: 1px rgba(28, 27, 83, 0.4);
 }
 
-/* Glassmorphism Text Area styling */
 .text-control {
     background: rgba(35, 34, 67, 0.25) !important;
     backdrop-filter: blur(12px);
