@@ -16,7 +16,7 @@ convertBtn.addEventListener('click', function () {
         const newUtter = new SpeechSynthesisUtterance(enteredText);
 
         speechSynch.speak(newUtter);
-        convertBtn.textContent = "Sound is Playing...";
+        convertBtn.textContent = "...";
 
         newUtter.onend = function () {
             convertBtn.innerHTML = '<i class="fa-solid fa-play"></i>';
@@ -29,6 +29,6 @@ convertBtn.addEventListener('click', function () {
     }
 
     setTimeout(() => {
-        convertBtn.textContent = "Play Converted Sound"
+        convertBtn.textContent = '<i class="fa-solid fa-play"></i>'
     }, 5000);
 });
