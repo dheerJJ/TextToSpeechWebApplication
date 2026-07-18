@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #232256;
+    background-image:
+        radial-gradient(at 15% 15%, #2a347c 0px, transparent 50%),
+        radial-gradient(at 100% 40%, #e2c0e4 0px, transparent 60%),
+        radial-gradient(at 20% 90%, #b2e2f7 0px, transparent 50%),
+        radial-gradient(at 60% 85%, #594b81 0px, transparent 60%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-heading h1 {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 700;
+    color: #f3eff5;
+    -webkit-text-stroke: 4px #33325c4e;
+}
+
+.app-heading h3 {
+    font-size: 2.6rem;
+    text-align: center;
+    font-weight: 700;
+    color: #f3eff5;
+    -webkit-text-stroke: 2px #1c1b5377;
+}
+
+.interaction-container {
+    text-align: center;
+    position: relative;
+}
+
+
+.text-control {
+    border-radius: 1rem;
+    background: #2322432a;
+    -webkit-backdrop-filter: blur(12px);
+    padding: 1rem;
+    color: #f3eff5;
+}
+
+.text-control::placeholder {
+    color: #f3eff5;
+}
+
+.text-control:focus {
+    outline: none;
+}
+
+#convertBtn {
+    position: absolute;
+    bottom: 1rem;
+    right: 1.5rem;
+    border-radius: 20rem;
+    border: 2px solid #181743;
+    opacity: 0.7;
+    transition: all 0.3s;
+}
+
+#convertBtn:hover {
+    opacity: 1;
+}
